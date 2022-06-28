@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+.dark-box {
+    background-color: #2C2E31;
+}
+.dark-box .title {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+.dark-box .tagline {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.dark-box .tagline a {
+    color: #2287cf;
+}
+.dark-box .social-media {
+    font-size: 14px;
+    color: #c2c0c0;
+    text-decoration: none;
+    font-weight: 400;
+}
+.dark-box .social-media img {
+    width: 15px;
+}
+.light-box .profile-picture img {
+    border: 1px #b0aeae solid;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+.light-box .profile-picture hr {
+    margin-top: -50px;
+    opacity: unset;
+    background-color: #b0aeae!important;
+}
+.light-box .name-title {
+    margin-top: 50px;
+}
+.light-box .name-title h5{
+    color: #b0aeae;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 5px;
+}
+.light-box .name-title h1{
+    color: #2C2E31;
+    font-family: 'Play', sans-serif;
+    font-weight: 600;
+}
