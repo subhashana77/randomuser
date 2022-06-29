@@ -1,6 +1,7 @@
 import './App.css';
 import UserProfile from "./component/UserProfile";
 import Facebook from "./asset/facebook.png";
+import Sponsered from "./component/Sponsered";
 
 function App() {
     return (
@@ -18,10 +19,13 @@ function App() {
                     </a>
                 </div>
             </div>
-            <div className="light-box">
+            <div className="light-box text-center">
                 <div className="container">
                     <UserProfile/>
                 </div>
+            </div>
+            <div className="container mb-5">
+                <Sponsered/>
             </div>
         </div>
     );
