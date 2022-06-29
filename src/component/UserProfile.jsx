@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import React, {useEffect, useState} from 'react';
 
 const API_URL = 'https://randomuser.me/api/';
 
@@ -15,7 +15,7 @@ function UserProfile(elementId) {
     }
 
     useEffect(()=> {
-        getPerson().then(r => []);
+        getPerson();
     }, []);
 
     useEffect(() => {
@@ -143,6 +143,7 @@ function UserProfile(elementId) {
             </div>
 
             <div className="next-button">
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a className="rounded" onClick={getPerson} rel="noopener noreferrer">Next</a>
             </div>
 
