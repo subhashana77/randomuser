@@ -36,16 +36,13 @@
     opacity: unset;
     background-color: #b0aeae!important;
 }
-.light-box .name-title {
-    margin-top: 50px;
-}
-.light-box .name-title h5{
-    color: #b0aeae;
+.light-box .profile-picture h5 {
     font-family: 'Play', sans-serif;
-    margin-bottom: 5px;
+    margin-top: 75px;
+    margin-bottom: 0;
+    color: #999;
 }
-.light-box .name-title h1{
-    color: #2C2E31;
+.light-box .profile-picture h1 {
     font-family: 'Play', sans-serif;
     font-weight: 600;
 }
